@@ -32,6 +32,7 @@ stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # initialize app
 app = Dash(__name__, external_stylesheets=stylesheet)
+server=app.server
 
 app.layout = html.Div([
     # use dcc.Markdown to add the title and three sentence summary to top of app
