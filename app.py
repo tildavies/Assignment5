@@ -6,7 +6,7 @@ from dash import Dash, dcc, html, Input, Output, State
 
 # %%
 # read in data
-data = pd.read_csv("/Users/tilliedavies/Downloads/A4_student/gdp_pcap.csv")
+data = pd.read_csv("gdp_pcap.csv")
 
 # %%
 # create a year column using pd.melt
